@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" modified="2023-10-30T16:11:13.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="MDT20ENavgGg9cGpWefC" version="22.0.8" type="device">
+  <diagram name="Страница — 1" id="Vdve1CpftE37OWr2jotA">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;main.py&lt;/font&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="60" width="200" height="130" as="geometry">
+            <mxRectangle x="300" y="60" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-3" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;AbstractOutputHandler&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-2" vertex="1">
+          <mxGeometry x="5" y="28" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-4" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;OutputHandler&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-2" vertex="1">
+          <mxGeometry x="10" y="58" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-5" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;CommandProcessor&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-2" vertex="1">
+          <mxGeometry x="5" y="88" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-6" value="addres_book.py" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="190" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;AddressBook&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-6" vertex="1">
+          <mxGeometry y="28" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-9" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Record&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-6" vertex="1">
+          <mxGeometry y="68" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.314;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="sourcePoint" />
+            <mxPoint x="300" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-10" value="note_book.py" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="260" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-11" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;NoteRecord&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-10" vertex="1">
+          <mxGeometry x="9" y="38" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-12" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Notebook&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-10" vertex="1">
+          <mxGeometry x="9" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-14" value="backup.py" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="420" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-18" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;PickleStorage&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-14" vertex="1">
+          <mxGeometry x="5" y="85" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-17" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Storage&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-14" vertex="1">
+          <mxGeometry x="5" y="28" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-19" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Backup&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-14" vertex="1">
+          <mxGeometry x="5" y="58" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-14" target="Jr8tcDYURFKNErLiDpgL-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="450" as="sourcePoint" />
+            <mxPoint x="170" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-20" value="commands.py" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="190" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-22" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;get_help&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-20" vertex="1">
+          <mxGeometry y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-23" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;goodbye&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-20" vertex="1">
+          <mxGeometry y="78" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-24" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;hello&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-20" vertex="1">
+          <mxGeometry y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-25" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;command_dict &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;{}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-20" vertex="1">
+          <mxGeometry x="-5" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-20" target="Jr8tcDYURFKNErLiDpgL-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="170" as="sourcePoint" />
+            <mxPoint x="660" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-26" value="decorators.py" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="463" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-30" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;wrapper&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-26" vertex="1">
+          <mxGeometry x="-5" y="68" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1.033;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.872;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-26" target="Jr8tcDYURFKNErLiDpgL-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="440" as="sourcePoint" />
+            <mxPoint x="790" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="440" />
+              <mxPoint x="760" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-29" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;input_error&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="565" y="498" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-14" target="Jr8tcDYURFKNErLiDpgL-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-32" value="fields_classes.py" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="80" y="380" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-36" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Name&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="68" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-37" value="&#xa;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Phone&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="85" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-38" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Birthday&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-35" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Field&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-39" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Address&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="165" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-40" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Email&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-41" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Date&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="225" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-42" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Tag&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Jr8tcDYURFKNErLiDpgL-32" vertex="1">
+          <mxGeometry y="255" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr8tcDYURFKNErLiDpgL-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.569;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jr8tcDYURFKNErLiDpgL-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="370" as="sourcePoint" />
+            <mxPoint x="170" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
